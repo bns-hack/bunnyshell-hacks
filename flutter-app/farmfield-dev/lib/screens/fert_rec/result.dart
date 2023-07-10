@@ -18,7 +18,7 @@ class _FertilizerRecResultState extends State<FertilizerRecResult> {
 
 
   Future fetchResult(data) async {
-    var url = "https://fertilizer-prediction-api-farmtrackapis.bunnyenv.com/predict";
+    var url = "https://fertilizer-prediction-api-farmfield.bunnyenv.com/predict";
     print(data);
     var response = await http.post(
       Uri.parse(url),
